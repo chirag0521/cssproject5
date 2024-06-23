@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part2{
+    display: flex;
+}
+#nav-part2 i{
+    background-color: orangered;
+    color: white;
+    border-radius: 50px;
+    border: none !important;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* gap: 10px; */
+}
+#nav h2{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav i{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 5px 10px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 13px;
+    font-weight: 600;
+}
+#orange{
+    background-color: orangered;
+    border: none !important;
+    color: white;
+}
+#main>h1{ /* it targets only the h1 elements which is directly under main tag because here DENTYTECH is also h1 but it is not directly under main ..it is under nav which is under main directly  */
+    font-size: 140px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+
+}
+ img{
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50% ,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50% ,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50% ,-50%) rotate(-10deg);
+}
+#bottom-left{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-weight: 500;
+    font-size: 15px;
+    color: #333;
+}
+#bottom-right{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+  
+}
+#bottom-right h5{
+    font-weight: 400;
+    font-size: 13px;
+    color: #333;
+}
+#bottom-right i{
+    margin: 0px 5px;
+}
+#bottom-center{
+    position: absolute;
+    bottom:0.2%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    border: 1.5px solid black;
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: -10%;
+}
+
+
